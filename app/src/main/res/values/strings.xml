@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ApiWithMVVM</string>
+
+    <string name="enter_name">Enter name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="enter_username">Enter username</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="enter_email">Enter email</string>
+    <string name="password">Password</string>
+    <string name="select_profile_picture">Select Profile Picture</string>
+    <string name="enter_password">Enter password</string>
+    <string name="empty_error">This Field can not be empty</string>
+    <string name="do_not_have_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="login">Login</string>
+    <string name="all_users">All users</string>
+    <string name="profile">Profile</string>
+    <string name="more">More</string>
+    <string name="invalid_email">Please enter valid email id.</string>
+
+
+    <string-array name="arrTab">
+
+        <item>@string/all_users</item>
+        <item>@string/profile</item>
+        <item>@string/more</item>
+
+    </string-array>
+
+    <string name="no_user_available">No user available</string>
+    <string name="save">Save</string>
+    <string name="log_out">Log out</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account">Delete account</string>
+    <string name="have_an_account_log_in">Have an account? Log in</string>
+    <string name="select_profile">Select profile</string>
+    <string name="session_has_expired_please_log_in_again">Session has expired. Please log in again.</string>
+    <string name="unknown_error">Unknown error %1$s</string>
+    <string name="logout_successfully">LogOut Successfully</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="one_time_password_otp_has_been_sent_via_email_to">One Time Password (OTP) has been sent via Email to</string>
+    <string name="mohit_gmail_com">mohit@gmail.com</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_in">Resend in :</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="_00_00">00:00</string>
+    <string name="you_can_send_the_otp_up_to_6_times_in_24_hours">You can send the OTP up to 6 times in 24 hours.</string>
+
+</resources>

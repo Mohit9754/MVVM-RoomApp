@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="allUsersViewModel"
+            type="com.example.apiwithmvvm.fragment.allusers.AllUsersViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.allusers.AllUsersFragment">
+
+        <LinearLayout
+            android:id="@+id/llUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                tools:listitem="@layout/item_user" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNoUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_user_available"
+            android:textSize="15sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</layout>
